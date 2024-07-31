@@ -1,0 +1,21 @@
+1. GET command
+GET- http://localhost:8000/abc/findall
+
+2. POST command
+POST- http://localhost:8000/abc/register
+
+3. PUT command
+PUT- http://localhost:8000/abc/update/fname
+
+4. PATCH command
+PATCH- http://localhost:8000/abc/updatedata/fname
+
+5. POST command
+POST- http://localhost:8000/abc/Login/fname
+
+6. DELETE command
+DELETE- http://localhost:8000/abc/delete/fname
+
+
+
+
