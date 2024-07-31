@@ -1,0 +1,41 @@
+use customer   //use databaseName
+db
+
+//  1. insert-command
+
+db.customer.insertOne()
+db.customer.insertMany([
+{"id":1,"Name":"Divyanka","Address":"Nashik","gender":"female"},
+{"id":1,"Name":"Ritesh","Address":"Nashik","gender":"male"},
+{"id":1,"Name":"Sneha","Address":"Nashik","gender":"female"},
+{"id":1,"Name":"Atharva","Address":"Nashik","gender":"male"},
+{"id":1,"Name":"Prerna","Address":"Nashik","gender":"female"}
+{"id":1,"Name":"Tejas","Address":"Nashik","gender":"male"},
+])
+
+
+//  2. find - command for display
+
+db.customer.find()
+db.customer.findOne()
+db.customer.find(
+{"Name":"Divyanka"}
+)
+
+
+//  3. update - command
+
+db.customer.updateOne(
+{"gender":"male"},{$set:{"age":20}}
+)
+
+
+//  4. Delete - command
+
+
+db.customer.deleteOne()
+db.customer.deleteMany()
+
+
+
+

@@ -1,0 +1,19 @@
+use student
+switched to db student
+db
+student
+db.studentdetail.insertMany([
+  {fname:"Divyanka",lname:"Pagare",rollno:1},
+  {fname:"Rinku",lname:"Pagare",rollno:2}
+])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('65a4d7e4e528f6de343f08ed'),
+    '1': ObjectId('65a4d7e4e528f6de343f08ee')
+  }
+}
+db.studentdetails.insertMany([
+  {fname:"Divyanka",lname:"Pagare",rollno:1},
+  {fname:"Rinku",lname:"Pagare",rollno:2}
+])

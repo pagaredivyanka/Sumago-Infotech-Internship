@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "659f8084cf81d9290eb3b768"
+  },
+  "id": 1,
+  "name": "Vinu",
+  "addr": "Upnagar"
+},
+{
+  "_id": {
+    "$oid": "659f8084cf81d9290eb3b769"
+  },
+  "id": 2,
+  "name": "Rinu",
+  "addr": "NahsikRoad"
+},
+{
+  "_id": {
+    "$oid": "659f8084cf81d9290eb3b76a"
+  },
+  "id": 3,
+  "name": "Divyanka Pagare",
+  "addr": "Nashik"
+},
+{
+  "_id": {
+    "$oid": "659f8084cf81d9290eb3b76b"
+  },
+  "id": 4,
+  "name": "Ritesh",
+  "addr": "Nashik"
+}]
