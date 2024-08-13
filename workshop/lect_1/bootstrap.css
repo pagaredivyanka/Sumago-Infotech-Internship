@@ -1,0 +1,11 @@
+.container {
+    background-color: antiquewhite;
+}
+
+.container-fluid {
+    background-color: bisque;
+}
+
+#carousel1 {
+    height: 700px
+}
